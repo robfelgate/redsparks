@@ -416,3 +416,104 @@ min-height:100vh;
 {
 animation:shimmer .5s ease-in-out;
 }
+
+
+
+/* contact form*/
+
+/* form */
+form {
+  text-align: center;
+      margin-bottom:20pt;
+}
+
+.field {
+  margin-bottom: 1.5em;
+  position: relative;
+}
+label {
+  abackground: #fff;
+   background:transparent;
+  acolor: #ff3296;
+  font-size: 1.0em;
+  font-weight: 600;
+  left: 1.0em;
+  opacity: 0;
+  padding: 0 .25em;
+  position: absolute;
+  top: 2em;
+  transition: all 0.1s linear;
+  z-index: -1;
+  padding-top:5pt;
+}
+
+label.show {
+  opacity: 1;
+  top: -1em;
+  z-index: 1;
+}
+
+
+.controls input {
+  margin-top:18pt;
+  font-family: 'Raleway', sans-serif;
+  z-index:2;
+}
+.controls input, 
+.controls textarea {
+  height: 42px;
+  aborder-radius: 4px;
+  background: #ebebeb;
+  box-shadow: none;
+  transition: all .2s;
+  border: 0;
+}
+.controls input:focus,
+.controls textarea:focus,
+.controls input:active,
+.controls textarea:active,
+.controls input:active,
+.controls textarea:active
+{
+  aborder: 1px solid #ff3296;
+  background: #ebebeb;
+}
+textarea{
+   margin-top:18pt;
+   resize: none;
+   overflow:none;
+   min-height:200pt;
+   font-family: 'Raleway', sans-serif;
+}
+
+.controls input submit{
+  background: #03a9c4;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: .75em;
+  padding: .75em;
+  text-transform: uppercase;
+
+}
+
+#submission{
+  background: #5888fe;
+   color:white;
+   cursor:pointer;
+}
+
+#contact h3 {
+   margin-top:20pt;
+
+}
+#contact
+{
+  background:#F16A06;
+
+}
+
+#form_message{
+   margin-top:20pt;
+}
